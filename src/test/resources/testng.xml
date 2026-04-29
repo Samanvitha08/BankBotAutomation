@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BankBot Suite">
+
+    <listeners>
+        <listener class-name="listener.TestListener"/>
+    </listeners>
+
+    <test name="All Tests">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.CustomerTest"/>
+            <class name="tests.AccountTest"/>
+            <class name="tests.FundTransferTest"/>
+        </classes>
+    </test>
+
+</suite>
